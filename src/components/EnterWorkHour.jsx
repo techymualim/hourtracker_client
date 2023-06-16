@@ -86,7 +86,7 @@ const EnterWorkHour = () => {
     });
   };
   return (
-    <div>
+    <div  className="bg-white rounded-md shadow-lg p-6 mt-8">
     <h1 className="text-2xl font-bold mb-6">Time Tracking Form</h1>
     <form onSubmit={handleSubmit} className="space-y-6">
       <div className="flex flex-col">

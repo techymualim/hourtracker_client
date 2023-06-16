@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-    baseURL: 'https://localhost:7271',
+    baseURL: 'https://workhourtrack20230616125627.azurewebsites.net',
   
   });
   
